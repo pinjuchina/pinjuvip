@@ -1,19 +1,29 @@
 {
   "settings": {
-    "name": "NewSite-03-17-009",
+    "name": "NewSite-04-12_1456",
     "currentPage": "index.html",
     "theme": {
-      "name": "default",
-      "title": "Mobirise",
-      "styling": {}
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 29,
+    "uniqCompNum": 9,
     "versionPublish": "3.12.1",
-    "favicon": "",
-    "noImageResize": "",
-    "google-analytics": "",
-    "cookiesAlert": "",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
@@ -29,247 +39,88 @@
       },
       "components": [
         {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_inherit": "menu",
           "_tags": [
             "Theme"
           ],
-          "_name": "slider",
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "slides": [
-              {
-                "active": true,
-                "image": "images/slide1.jpg",
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "Slide 1",
-                "showText": true,
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "images/slide2.jpg",
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "Slide 2",
-                "showText": true,
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "images/slide3.jpg",
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "Slide 3",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#ffffff",
-            "showBullets": true
-          },
-          "_anchor": "slider-a",
-          "articleLayout": false
-        },
-        {
-          "_inherit": "features1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content4",
-          "_anchor": "content4-c",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showHeader": true,
-            "showSubheader": false,
-            "columns": "4",
-            "showImages": false,
-            "showTitles": true,
-            "showCaptions": true,
-            "showButtons": false
-          },
-          "headerAlign": "left",
-          "header": "DROP-DEAD EASY WEBSITE MAKER",
-          "subheader": "By John Smith posted July 30, 2015",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "images/bootstrap.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "BOOTSTRAP 3",
-          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "images/responsive.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "RESPONSIVE",
-          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "images/google-fonts.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "WEB FONTS",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "images/unlimited-websites.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "images/blocks.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
-        },
-        {
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
+            ".navbar-caption": {
               "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.6rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.650rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-7",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
+            "bgColor": "#282828",
+            "fontSize": "0.6",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
             "logo": true,
             "showBrand": true,
-            "showButtons": false
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "images/logo.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "src": "@PROJECT_PATH@/assets/images/logobanben2-152x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -277,421 +128,293 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://pinjuchina.github.io/pinjuvipshou/\">品居官网</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "footer1",
-          "_anchor": "footer1-9",
+          "_name": "header2",
+          "_anchor": "header2-1",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "品<font color=\"#000000\">居租房</font><br><font color=\"#000000\">&nbsp;招募合作精英</font>&nbsp;",
+          "text": "传统的工作流程我们认真做，创新的运营模式我们诚心做.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://pinjuchina.github.io/pinjuvipshou/\" data-toolbar=\"-mbrBtnMove\">pinjuvip.com</a>",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-3",
+          "_params": {
+            "imageSize": "42",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#475577",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "未来在于我们现在如何做出选择&nbsp;",
+          "text": "用好互联网的大平台，运用电商的运营模式来一场前所未有的开始！.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-5",
           "_params": {
             "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "&nbsp; 这将是<br>&nbsp; 有史以来 黏性最强的服务",
+          "caption": "品居租房网以“全新的互联网房地产居间综合服务商”的概念出现，为客户、业主提供更完善的服务，省心、省事、省钱是我们一直探索追求的方向。<div><br></div><div>我们提供租前精准信息、精准服务，租后的系统服务，比如：搬家、家电清洗、房屋保洁、家电租赁等等。</div><div><br></div><div>近期上线活动：业主在线放盘，我们增送上门保洁服务，独家委托增送家电空调清洗等服务。</div><div><p><b>强大后勤服务支持</b></p></div>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "testimonial": [
+            {
+              "text": "<p>“资源独享：负责二、三个楼盘租赁业务，约3500户的规模。配备2、3位经理助理协同开展工作”</p><p>&nbsp;“工作内容：负责所管楼盘的盘源维护、搜集及客户的维护跟进”</p><p>”收益预估：3500户的15-23%出租率，年平均650套在租房源，初期目标17%的市占”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "客户经理.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>“资源独享：负责三、五个楼盘租赁业务，约12000户的规模。配备3、5位客户经理协同开展工作”</p><p><br></p><p>&nbsp;“工作内容：负责所管楼盘的盘源维护、搜集及客户的满意度跟进”</p><p><br></p><p>”收益预估：12000户的15-23%出租率，年平均2300套在租房源，初期目标17%的市占”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "区域总监.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials2-6",
+          "_params": {
+            "count": "2",
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#444444",
+            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
+            "bgColor": "#c1c1c1",
             "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlay": false,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false,
+            "showImages": true,
+            "showName": true,
+            "showBio": false
           },
-          "text": "Copyright (c) 2015 Company Name. <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>"
+          "title": "<br>招募合作岗位",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
-          "_anchor": "form1-s",
+          "_anchor": "form1-8",
           "_params": {
+            "labelsColor": "#232323",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#27aae0",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#7e9b9f",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true
+            "showTitle": true,
+            "showSubTitle": false
           },
-          "title": "CONTACT FORM",
+          "title": "only与众不同的你",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "form": {
             "action": "xihanw@qq.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "感谢您关注 品居租房网 !"
             },
             "fields": {
               "name": {
                 "title": "Name",
                 "visible": true,
-                "customTitle": "Name*"
+                "customTitle": "姓名*"
               },
               "email": {
                 "title": "Email",
                 "visible": true,
-                "customTitle": "Email*"
+                "customTitle": "邮箱*"
               },
               "phone": {
                 "title": "Phone",
                 "visible": true,
-                "customTitle": "Phone"
+                "customTitle": "手机"
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message"
+                "customTitle": "请详细介绍下最三年的销售或互联网公司工作经验/到岗时间/非诚勿投"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
-        }
-      ]
-    },
-    "page1.html": {
-      "settings": {
-        "title": "",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "slides": [
-              {
-                "active": true,
-                "image": "images/slide1.jpg",
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "Slide 1",
-                "showText": true,
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "images/slide2.jpg",
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "Slide 2",
-                "showText": true,
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "images/slide3.jpg",
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "Slide 3",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#ffffff",
-            "showBullets": true
-          },
-          "_anchor": "slider-n",
-          "articleLayout": false
-        },
-        {
-          "_inherit": "features1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content4",
-          "_anchor": "content4-o",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showHeader": false,
-            "showSubheader": false,
-            "columns": 5,
-            "showImages": false,
-            "showTitles": true,
-            "showCaptions": true,
-            "showButtons": false
-          },
-          "headerAlign": "left",
-          "header": "DROP-DEAD EASY WEBSITE MAKER",
-          "subheader": "By John Smith posted July 30, 2015",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "images/bootstrap.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "BOOTSTRAP 3",
-          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "images/responsive.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "RESPONSIVE",
-          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "images/google-fonts.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "WEB FONTS",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "images/unlimited-websites.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "images/blocks.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-p",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#f0f0f0",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "firstType": "blue",
-            "showButtons": true,
-            "secondType": "green",
-            "thirdType": "favorite",
-            "fourthType": "default",
-            "fifthType": "hidden"
-          },
-          "title1": "STANDARD",
-          "currency1": "$",
-          "price1": "0",
-          "period1": "per month",
-          "list1": "<ul><li><b>32 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>15 GB</b> Bandwidth</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
-          "title2": "BUSINESS",
-          "currency2": "$",
-          "price2": "0",
-          "period2": "per month",
-          "list2": "<ul><li><b>80 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>20 GB</b> Bandwidth</li></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">DEMO LINK</a>",
-          "title3": "PREMIUM",
-          "currency3": "$",
-          "price3": "0",
-          "period3": "per month",
-          "list3": "<ul><li><b>100 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>50 GB</b> Bandwidth</li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
-          "title4": "ULTIMATE",
-          "currency4": "$",
-          "price4": "0",
-          "period4": "per month",
-          "list4": "<ul><li><b>Unlimited</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>1 TB</b> Bandwidth</li></ul>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>",
-          "title5": "EXTENDED",
-          "currency5": "$",
-          "price5": "0",
-          "period5": "per month",
-          "list5": "<ul><li><b>Unlimited</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>2 TB</b> Bandwidth</li></ul>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>"
-        },
-        {
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">诚意投送</a>",
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+            ".form-control-label": {
+              "color": "#232323"
             }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-q",
-          "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "images/logo.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+          }
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-r",
+          "_anchor": "footer1-7",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#444444",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2015 Company Name. <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>"
+          "text": "www..pinjuvip.com &nbsp; &nbsp; 2017.4. &nbsp; &nbsp; &nbsp;品居版权所有",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     }
