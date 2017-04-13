@@ -115,7 +115,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logobanben2-152x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/-413-9-256x128.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "",
@@ -129,13 +129,21 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://pinjuchina.github.io/pinjuvipshou/\">品居官网</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://pinjuchina.github.io/pinjuvipshou/\">品居招聘官网</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
           "_anchor": "header2-1",
           "_params": {
             "imageSize": 50,
@@ -176,16 +184,8 @@
             }
           },
           "title": "品<font color=\"#000000\">居租房</font><br><font color=\"#000000\">&nbsp;招募合作精英</font>&nbsp;",
-          "text": "传统的工作流程我们认真做，创新的运营模式我们诚心做.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://pinjuchina.github.io/pinjuvipshou/\" data-toolbar=\"-mbrBtnMove\">pinjuvip.com</a>",
-          "_styles": {
-            ".mbr-section-title FONT": {
-              "color": "#ffffff"
-            },
-            ".btn": {
-              "font-size": "14px"
-            }
-          }
+          "text": "传统的工作流程我们用心做，创新的运营模式我们诚心做.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://pinjuchina.github.io/pinjuvipshou/\" data-toolbar=\"-mbrBtnMove\">pinjuvip.com</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -275,7 +275,7 @@
             "showCaption": true
           },
           "title": "&nbsp; 这将是<br>&nbsp; 有史以来 黏性最强的服务",
-          "caption": "品居租房网以“全新的互联网房地产居间综合服务商”的概念出现，为客户、业主提供更完善的服务，省心、省事、省钱是我们一直探索追求的方向。<div><br></div><div>我们提供租前精准信息、精准服务，租后的系统服务，比如：搬家、家电清洗、房屋保洁、家电租赁等等。</div><div><br></div><div>近期上线活动：业主在线放盘，我们增送上门保洁服务，独家委托增送家电空调清洗等服务。</div><div><p><b>强大后勤服务支持</b></p></div>"
+          "caption": "品居租房网以“全新的互联网房地产居间综合服务商”的概念出现，为客户、业主提供更完善的服务，省心、省事、省钱是我们一直探索追求的方向。<div><br></div><div>我们提供租前精准信息、精准服务，租后的系统服务，比如：搬家、家电清洗、房屋保洁、家电租赁等等。</div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\">近期上线活动：业主在线放盘，我们赠送上门保洁服务，独家委托赠送家电空调清洗等服务。</span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span><b style=\"font-size: 1.07rem; line-height: 1.5;\">强大后勤服务支持</b></div>"
         },
         {
           "_tags": [
@@ -317,6 +317,9 @@
             "count": "2",
             "paddingTop": "0",
             "paddingBottom": "1",
+            "showImages": true,
+            "showName": true,
+            "showBio": false,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
@@ -326,10 +329,7 @@
             "overlayOpacity": 0.2,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": false,
-            "showImages": true,
-            "showName": true,
-            "showBio": false
+            "showSubtitle": false
           },
           "title": "<br>招募合作岗位",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
@@ -339,6 +339,11 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "form1-8",
           "_params": {
             "labelsColor": "#232323",
@@ -384,18 +389,18 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">诚意投送</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">诚意投送</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "footer1-7",
           "_params": {
             "paddingTop": 2,
@@ -409,12 +414,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "www..pinjuvip.com &nbsp; &nbsp; 2017.4. &nbsp; &nbsp; &nbsp;品居版权所有",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
+          "text": "www..pinjuvip.com &nbsp; &nbsp; 2017.4. &nbsp; &nbsp; &nbsp;品居版权所有"
         }
       ]
     }
