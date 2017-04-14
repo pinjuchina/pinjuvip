@@ -249,6 +249,9 @@
             },
             "DIV": {
               "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
             }
           },
           "_tags": [
@@ -274,7 +277,7 @@
             "showTitle": true,
             "showCaption": true
           },
-          "title": "&nbsp; 这将是<br>&nbsp; 有史以来 黏性最强的服务",
+          "title": "&nbsp;这将是<br>&nbsp;有史以来 <br>&nbsp;黏性最强的 服务",
           "caption": "品居租房网以“全新的互联网房地产居间综合服务商”的概念出现，为客户、业主提供更完善的服务，省心、省事、省钱是我们一直探索追求的方向。<div><br></div><div>我们提供租前精准信息、精准服务，租后的系统服务，比如：搬家、家电清洗、房屋保洁、家电租赁等等。</div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\">近期上线活动：业主在线放盘，我们赠送上门保洁服务，独家委托赠送家电空调清洗等服务。</span></div><div><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span><b style=\"font-size: 1.07rem; line-height: 1.5;\">强大后勤服务支持</b></div>"
         },
         {

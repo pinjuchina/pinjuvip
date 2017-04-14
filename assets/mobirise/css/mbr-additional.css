@@ -492,6 +492,9 @@ h6,
 #content5-5 DIV {
   color: #ffffff;
 }
+#content5-5 .mbr-section-title {
+  font-size: 36px;
+}
 #form1-8 .form-control-label {
   color: #232323;
 }
